@@ -11,12 +11,12 @@ Usage
 
 #For a new app
 
-    $ heroku create --buildpack https://github.com/arunoda/heroku-nodejs-binary-buildback.git
+    $ heroku create --buildpack https://github.com/adaptivelab/heroku-nodejs-binary-buildback.git
     $ git push heroku master
 
 #For an existing app
 
-    $ heroku config:add BUILDPACK_URL=https://github.com/arunoda/heroku-nodejs-binary-buildback.git
+    $ heroku config:add BUILDPACK_URL=https://github.com/adaptivelab/heroku-nodejs-binary-buildback.git
     $ git push heroku master
 
 Using Custom NodeJS version
